@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "tpsabrinadolce/node_modules/bootstrap/dist/css/bootstrap.css",
+              
             ],
-            "scripts": []
+            "scripts": [
+              "tpsabrinadolce/node_modules/bootstrap/dist/js/bootstrap.js"
+              ]
           },
           "configurations": {
             "production": {
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
